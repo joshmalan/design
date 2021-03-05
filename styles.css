@@ -404,8 +404,8 @@ body .welcome{
 
  .imgholder {
  	justify-content: center;
- 	width: 600px;
- 	height: 650px;
+ 	max-width: 600px;
+ 	max-height: 650px;
  	margin-left: auto;
  	margin-right: auto;
  }
