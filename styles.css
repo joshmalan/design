@@ -401,3 +401,19 @@ body .welcome{
  .email{
  	font-size: 20px;
  }
+
+ .imgholder {
+ 	justify-content: center;
+ 	width: 600px;
+ 	height: 650px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .imgholder img{
+ 	text-align: center;
+ 	height: 600px;
+ 	margin: auto;
+ 	object-fit: contain;
+ }
+
