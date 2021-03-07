@@ -67,11 +67,12 @@ header{
 }
 
 figure{
-		border-left: 1px solid black;
-		border-right: 1px solid black;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
 }
 figcaption{
 	margin-bottom: 7px;
+	color: white;
 }
 
 .pics{
@@ -81,7 +82,10 @@ figcaption{
 	flex-wrap: wrap;
 /*	max-width: 1300px;*/
 	margin-bottom: -15px;
-
+	padding-top: 20px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	background-color: black;
 }
 
 .pics img{
@@ -115,6 +119,7 @@ figcaption{
 
 .pics h1{
 	font-size: 25px;
+
 }
 
 @media screen and (max-width: 773px) {
@@ -139,26 +144,17 @@ figcaption{
 
 /*Subheading*/
 .subhead{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-weight: bold;
-	font-size:45px;
-	background-color: #F15E3B;
-	color: white;
-	margin-bottom: 10px;
+
 
 }
 
 .head2 {
 	text-align: center;
 	font-size: 45px;
-	margin-top: 25px;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 40px;
-	background-color: #FBAF33;
-	color: white;
 
 }
 
@@ -249,27 +245,25 @@ body .welcome{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	border-bottom: 2px solid lightgrey;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 
 }
 .projectname{
 	display: flex;
 	font-size: 25px;
-	color: white;
 	text-align: center;
 	justify-content: center;
-	background-color: #FBAF33;
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	text-decoration: underline 2px;
 }
 .project2{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	border-bottom: 2px solid lightgrey;
-	margin-bottom: 10px;
+
+	margin-bottom: 40px;
 }
 .project2 img{
   max-width: 100%;
@@ -279,9 +273,8 @@ body .welcome{
 .project3{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	border-bottom: 2px solid lightgrey;
-	margin-bottom: 10px;
+	justify-content: center;;
+	margin-bottom: 40px;
 }
 .project3 img{
   max-width: 100%;
